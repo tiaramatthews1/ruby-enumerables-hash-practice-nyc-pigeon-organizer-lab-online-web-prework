@@ -34,13 +34,16 @@ def nyc_pigeon_organizer(data)
     :color => ["white", "brown"],
     :gender => ["male"],
     :lives => ["Central Park"]
+  }, 
+  "Luca" => {
+    :color => ["brown"]
+    :gender => ["male"]
+    :lives => ["Central"]
+  },
+  "Lola" => {
+    :color => ["black"
+    :gender => ["female"]
+    :lives => ["Library"]
   }
-}
-  data.each do |key,value|
-   if new_hash[key]
-        new_hash[key][:count] += 1
-      else
-        new_hash[key] = value 
-        new_hash[key][:count] = 1
+  }
   end
-end
