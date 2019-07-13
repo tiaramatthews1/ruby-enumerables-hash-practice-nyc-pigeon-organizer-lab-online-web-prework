@@ -32,7 +32,7 @@ describe "NYC Pigeon Organizer" do
         expect(@result.class).to eq(Hash)
       end
       it "returns a hash with seven keys" do
-        expect(@result.keys.length).to eq(7)
+        expect(@result.keys.length).to eq(9)
       end
       it 'has the keys Theo, Peter Jr., Lucky, Ms. K, Queenie, Andrew, and Alex' do
         names = ["Theo", "Peter Jr.", "Lucky", "Ms. K", "Queenie", "Andrew", "Alex"]
